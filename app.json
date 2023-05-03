@@ -5,6 +5,24 @@
       "bundler": "metro"
     },
     "name": "compte",
-    "slug": "compte"
+    "slug": "compte",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover"
+    },
+    "android": {
+      "package": "com.hasinaniaina.compte"
+    },
+    "ios": {
+      "bundleIdentifier": "com.hasinaniaina.compte"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ef1020e6-c05c-4e24-b1ee-d2af82e6d438"
+      }
+    }
   }
 }
